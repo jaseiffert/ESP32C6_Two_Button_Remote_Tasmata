@@ -1,0 +1,18 @@
+# Two Button Remote
+sensor:
+  - name: "Two Button Remote Battery"
+    unique_id: familyroom_button_twobutton_battery
+    state_topic: "familyroom/button/twobutton01"
+    value_template: "{{ value_json.batt }}"
+    unit_of_measurement: "v"
+
+  - name: "Two Button Remote Power"
+    unique_id: familyroom_button_twobutton_pwr
+    state_topic: "familyroom/button/twobutton01"
+    value_template: "{{ value_json.pwr }}"
+    
+  - name: "Two Button Remote WiFi Signal"
+    unique_id: familyroom_button_twobutton_wifisig01
+    state_topic: "familyroom/button/twobutton01"
+    unit_of_measurement: "dBm"
+    value_template: "{{ value_json.wifisig }}"
