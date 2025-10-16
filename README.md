@@ -2,6 +2,7 @@
 XIAO ESP32C6 Two Button Remote for SONOFF Basic Switch Programmed with Tasmota
 
 The include/configuration.h file has all the settings needed to be set for the timing and MQTT Server connection.
+<br />
 The include/secrets.h has all the passwords that need to be set.
 
 If you want to change the amount of time before it goes to sleep change this: SLEEP_DELAY_M (number in minutes)
